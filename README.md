@@ -1,2 +1,3 @@
 # TiendaDigital_finalJS
 Tienda digital - Carrito de compras una vez comprado se muestra el link y se genera un QR con el link del producto.
+El proyecto es una tienda de servicios digitales, se venden libros en pdf. Se carga el carrito, se eliminan los items, se guarda el carrito en el localstorage. Cuando se acepta la compra solicita un mail válido y un código de pago de 5 dígitos numericos, si es válido muestra el link de los libros comprados y un código QR. Si la compra fue válida , cuando se reinicia la pagina se borra el carrito del local storage. Si no es validada pasados 2 seg vuelve a la pagina principal.
